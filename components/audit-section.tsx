@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
 
+tsx id="g9twpa"
 const issues = [
   {
     id: 1,
@@ -10,71 +11,80 @@ const issues = [
     icon: Lightbulb,
     priority: "Alta",
     priorityColor: "bg-red-100 text-red-700 border-red-200",
-    description: "Luci accese nelle aule vuote, PC non spenti correttamente, dispersione di energia nelle ore notturne.",
+    description:
+      "Molte aule e dispositivi elettronici rimangono attivi anche quando non vengono utilizzati, causando inutili sprechi energetici.",
     details: [
-      "85% delle aule con luci accese inutilmente",
-      "Computer in standby fuori orario",
-      "Mancanza di sensori di movimento",
+      "Luci lasciate accese nelle aule vuote",
+      "Computer spesso in standby fuori orario",
+      "Assenza di sistemi automatici di spegnimento",
     ],
     wastePercent: 85,
     color: "amber",
   },
+
   {
     id: 2,
-    title: "Gestione Rifiuti",
+    title: "Gestione dei Rifiuti",
     icon: Trash2,
     priority: "Alta",
     priorityColor: "bg-red-100 text-red-700 border-red-200",
-    description: "Raccolta differenziata inefficace, cestini insufficienti o mal posizionati nelle aree comuni.",
+    description:
+      "La raccolta differenziata non è sempre efficace a causa di cestini poco visibili, segnaletica limitata e scarsa sensibilizzazione.",
     details: [
-      "Cestini spesso mal etichettati",
-      "Posizionamento non strategico",
-      "Scarsa sensibilizzazione",
+      "Cestini non sempre ben identificabili",
+      "Posizionamento poco strategico nelle aree comuni",
+      "Necessità di maggiore sensibilizzazione",
     ],
     wastePercent: 70,
     color: "blue",
   },
+
   {
     id: 3,
     title: "Sprechi Idrici",
     icon: Droplets,
     priority: "Media",
     priorityColor: "bg-yellow-100 text-yellow-700 border-yellow-200",
-    description: "Rubinetti che perdono nei bagni, assenza di aeratori per ridurre il consumo d'acqua.",
+    description:
+      "Piccole perdite e sistemi poco efficienti contribuiscono a un consumo d’acqua superiore al necessario.",
     details: [
-      "Rubinetti con perdite continue",
-      "Nessun aeratore installato",
-      "Sciacquoni non efficienti",
+      "Rubinetti con perdite frequenti",
+      "Mancanza di aeratori per il risparmio idrico",
+      "Sistemi di scarico poco efficienti",
     ],
     wastePercent: 55,
     color: "sky",
   },
+
   {
     id: 4,
-    title: "Trasporti",
+    title: "Mobilità e Trasporti",
     icon: Car,
     priority: "Media",
     priorityColor: "bg-yellow-100 text-yellow-700 border-yellow-200",
-    description: "Traffico intenso in Via Per S. Marco, troppi studenti arrivano in auto invece di usare trasporti sostenibili.",
+    description:
+      "Molti studenti raggiungono la scuola in auto privata, aumentando traffico, emissioni e congestione nelle ore di punta.",
     details: [
-      "65% studenti in auto privata",
-      "Poche rastrelliere bici",
-      "Carpool non incentivato",
+      "Elevato utilizzo dell’auto privata",
+      "Poche rastrelliere per biciclette",
+      "Mobilità sostenibile poco incentivata",
     ],
     wastePercent: 65,
     color: "slate",
   },
+
   {
     id: 5,
-    title: "Spazi Verdi",
+    title: "Spazi Verdi Limitati",
     icon: Trees,
     priority: "Bassa",
     priorityColor: "bg-emerald-100 text-emerald-700 border-emerald-200",
-    description: "Cortile dominato dal cemento, mancanza di alberi, piante e aree ombreggiate per il benessere.",
+    description:
+      "Gli spazi esterni della scuola presentano poche aree verdi e limitate zone ombreggiate dedicate al benessere degli studenti.",
     details: [
-      "90% superficie cementificata",
-      "Assenza di alberi ombreggianti",
-      "Nessun orto didattico",
+      "Ampie superfici cementificate",
+      "Pochi alberi e aree ombreggiate",
+      "Assenza di orti o spazi didattici verdi",
     ],
     wastePercent: 90,
     color: "green",
