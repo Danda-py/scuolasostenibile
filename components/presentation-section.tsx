@@ -203,7 +203,7 @@ const slides = [
 
   {
     id: 14,
-    title: "Educazione alla Sostenibilità",
+    title: "Educazione alla sostenibilità",
     content:
       "Educare alla sostenibilità significa formare cittadini più consapevoli, responsabili e pronti ad affrontare le sfide future.",
     icon: Users,
@@ -362,7 +362,7 @@ export function PresentationSection() {
             Contesto Globale
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4 text-balance">
-            Sostenibilita e Green Schools
+            sostenibilità e Green Schools
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto text-pretty">
             Comprendere l&apos;emergenza climatica e il ruolo delle scuole nella transizione ecologica.
@@ -556,7 +556,7 @@ export function PresentationSection() {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Green Schools</h4>
-                  <p className="text-sm text-muted-foreground">450+ scuole certificate in Lombardia per la sostenibilita</p>
+                  <p className="text-sm text-muted-foreground">450+ scuole certificate in Lombardia per la sostenibilità</p>
                 </div>
               </div>
             </CardContent>
