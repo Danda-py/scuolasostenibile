@@ -6,211 +6,232 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 
 const slides = [
-  // SEZIONE 1: Introduzione
   {
     id: 1,
     title: "Verso una Scuola Sostenibile",
-    content: "Comprendere l'emergenza climatica globale e il ruolo fondamentale che le scuole possono giocare nella transizione ecologica.",
+    content:
+      "Comprendere la crisi climatica globale e il ruolo fondamentale che le scuole possono avere nella transizione ecologica.",
     icon: Leaf,
     bgClass: "bg-gradient-to-br from-[#064e3b] to-[#10b981]",
     category: "intro",
     details: [
-      "Contesto globale e sfide ambientali",
-      "Politiche internazionali per il clima",
-      "Il movimento Green Schools"
+      "Le grandi sfide ambientali del presente",
+      "Le risposte internazionali al cambiamento climatico",
+      "Il ruolo delle Green Schools"
     ]
   },
-  
-  // SEZIONE 2: Emergenza Climatica Globale
+
   {
     id: 2,
-    title: "L'Emergenza Climatica: I Numeri",
-    content: "Il pianeta si sta riscaldando a un ritmo senza precedenti. La concentrazione di CO2 ha superato le 420 ppm, il livello piu alto degli ultimi 800.000 anni.",
+    title: "L’Emergenza Climatica",
+    content:
+      "La temperatura media globale è aumentata di oltre +1.2°C. Oggi nell’atmosfera c’è più CO₂ che in qualsiasi altro momento degli ultimi 800.000 anni.",
     icon: Thermometer,
     bgClass: "bg-gradient-to-br from-red-700 to-orange-500",
     category: "globale",
     details: [
-      "+1.2C rispetto all'era preindustriale",
-      "420+ ppm di CO2 in atmosfera",
-      "2023: anno piu caldo mai registrato"
+      "+1.2°C rispetto all’era preindustriale",
+      "420+ ppm di CO₂ in atmosfera",
+      "2023: anno più caldo mai registrato"
     ]
   },
+
   {
     id: 3,
     title: "Gli Effetti del Cambiamento Climatico",
-    content: "Eventi meteorologici estremi sempre piu frequenti: ondate di calore, alluvioni, siccita. Le conseguenze sono gia visibili in ogni parte del mondo.",
+    content:
+      "Ondate di calore, alluvioni e siccità stanno diventando sempre più frequenti. Gli effetti della crisi climatica sono ormai visibili in tutto il mondo.",
     icon: CloudRain,
     bgClass: "bg-gradient-to-br from-slate-700 to-blue-600",
     category: "globale",
     details: [
-      "Aumento di alluvioni e siccita",
+      "Eventi estremi sempre più frequenti",
       "Scioglimento dei ghiacciai alpini",
-      "Innalzamento del livello del mare"
+      "Aumento del livello dei mari"
     ]
   },
+
   {
     id: 4,
-    title: "Le Emissioni di Gas Serra",
-    content: "Ogni anno l'umanita emette circa 40 miliardi di tonnellate di CO2. I principali settori responsabili: energia, agricoltura e industria.",
+    title: "Le Emissioni Globali",
+    content:
+      "Ogni anno vengono emesse circa 40 miliardi di tonnellate di CO₂. Energia, industria e agricoltura sono tra i principali settori responsabili.",
     icon: Factory,
     bgClass: "bg-gradient-to-br from-zinc-800 to-zinc-600",
     category: "globale",
     details: [
-      "40 Gt di CO2 emesse ogni anno",
-      "Energia fossile: 73% delle emissioni",
-      "Deforestazione: 10% delle emissioni"
+      "40 miliardi di tonnellate di CO₂",
+      "73% emissioni da combustibili fossili",
+      "Deforestazione in costante crescita"
     ]
   },
+
   {
     id: 5,
     title: "Il Punto di Non Ritorno",
-    content: "Gli scienziati avvertono: superare i +1.5C potrebbe innescare effetti irreversibili. Abbiamo meno di 10 anni per agire decisamente.",
+    content:
+      "Superare la soglia di +1.5°C potrebbe provocare cambiamenti irreversibili per ecosistemi, economie e società. Il tempo per agire si sta riducendo.",
     icon: AlertTriangle,
     bgClass: "bg-gradient-to-br from-amber-600 to-red-600",
     category: "globale",
     details: [
-      "Budget carbonio limitato",
-      "Tipping points sempre piu vicini",
-      "Urgenza di azione immediata"
+      "Rischio di effetti irreversibili",
+      "Tipping points sempre più vicini",
+      "Necessaria un’azione immediata"
     ]
   },
+
   {
     id: 6,
-    title: "L'Impatto sugli Ecosistemi",
-    content: "Perdita di biodiversita senza precedenti: 1 milione di specie a rischio estinzione. Oceani sempre piu acidi e caldi.",
+    title: "Ecosistemi in Pericolo",
+    content:
+      "La perdita di biodiversità sta accelerando rapidamente. Oltre un milione di specie rischia l’estinzione a causa delle attività umane.",
     icon: Waves,
     bgClass: "bg-gradient-to-br from-cyan-700 to-blue-500",
     category: "globale",
     details: [
       "1 milione di specie a rischio",
-      "Oceani +30% acidita dal 1800",
-      "Ecosistemi marini in pericolo"
+      "Oceani sempre più acidi e caldi",
+      "Habitat naturali in trasformazione"
     ]
   },
 
-  // SEZIONE 3: Risposte Internazionali
   {
     id: 7,
-    title: "L'Accordo di Parigi (2015)",
-    content: "195 nazioni unite per limitare il riscaldamento a +1.5C. Obiettivo: neutralita climatica entro il 2050 e riduzione emissioni del 45% entro il 2030.",
+    title: "L’Accordo di Parigi",
+    content:
+      "Nel 2015, 195 Paesi hanno firmato un accordo storico per limitare il riscaldamento globale e raggiungere la neutralità climatica entro il 2050.",
     icon: Globe,
     bgClass: "bg-gradient-to-br from-blue-700 to-cyan-500",
     category: "politiche",
     details: [
-      "195 paesi firmatari",
-      "Obiettivo: max +1.5C",
-      "Net-zero entro 2050"
+      "195 Paesi firmatari",
+      "Obiettivo massimo: +1.5°C",
+      "Neutralità climatica entro il 2050"
     ]
   },
+
   {
     id: 8,
-    title: "Gli SDGs delle Nazioni Unite",
-    content: "I 17 Obiettivi di Sviluppo Sostenibile dell'Agenda 2030: un piano d'azione globale per le persone, il pianeta e la prosperita.",
+    title: "Gli SDGs dell’ONU",
+    content:
+      "L’Agenda 2030 delle Nazioni Unite definisce 17 Obiettivi di Sviluppo Sostenibile per proteggere il pianeta e migliorare la qualità della vita.",
     icon: Target,
     bgClass: "bg-gradient-to-br from-indigo-600 to-blue-500",
     category: "politiche",
     details: [
-      "17 obiettivi interconnessi",
+      "17 obiettivi globali",
       "169 target specifici",
-      "Scadenza: 2030"
+      "Un piano condiviso per il futuro"
     ]
   },
+
   {
     id: 9,
     title: "Il Green Deal Europeo",
-    content: "L'Europa punta a diventare il primo continente climaticamente neutro. 1.000 miliardi di euro investiti nella transizione verde.",
+    content:
+      "L’Unione Europea vuole diventare il primo continente climaticamente neutro attraverso investimenti, innovazione e sviluppo sostenibile.",
     icon: TrendingUp,
     bgClass: "bg-gradient-to-br from-emerald-700 to-teal-500",
     category: "politiche",
     details: [
-      "1 trilione di euro di investimenti",
-      "-55% emissioni entro 2030",
-      "Neutralita climatica entro 2050"
+      "-55% emissioni entro il 2030",
+      "Investimenti nella transizione verde",
+      "Neutralità climatica entro il 2050"
     ]
   },
+
   {
     id: 10,
-    title: "L'Italia e la Sostenibilita",
-    content: "Il PNRR destina 71 miliardi alla transizione ecologica. Obiettivo: 72% di energia da fonti rinnovabili entro il 2030.",
+    title: "L’Italia e la Transizione Ecologica",
+    content:
+      "Il PNRR investe miliardi di euro nella sostenibilità, nelle energie rinnovabili e nell’efficienza degli edifici pubblici.",
     icon: Sun,
     bgClass: "bg-gradient-to-br from-green-600 to-lime-500",
     category: "politiche",
     details: [
-      "71 miliardi euro dal PNRR",
-      "72% rinnovabili entro 2030",
-      "Efficienza edifici pubblici"
+      "71 miliardi destinati alla transizione ecologica",
+      "Sviluppo delle energie rinnovabili",
+      "Efficienza energetica degli edifici"
     ]
   },
 
-  // SEZIONE 4: Il Ruolo delle Scuole
   {
     id: 11,
     title: "Le Scuole: Motori del Cambiamento",
-    content: "8.000 istituti scolastici in Italia, 7.5 milioni di studenti. Le scuole consumano il 17% dell'energia del settore pubblico.",
+    content:
+      "Le scuole non sono solo luoghi di apprendimento: possono diventare esempi concreti di sostenibilità e innovazione.",
     icon: Building2,
     bgClass: "bg-gradient-to-br from-indigo-700 to-violet-500",
     category: "scuole",
     details: [
-      "8.000 istituti scolastici",
-      "7.5 milioni di studenti",
-      "17% consumi energetici pubblici"
+      "8.000 istituti scolastici in Italia",
+      "7.5 milioni di studenti coinvolti",
+      "Grande impatto energetico e sociale"
     ]
   },
+
   {
     id: 12,
     title: "Il Programma Green Schools",
-    content: "Nato in Lombardia, oggi diffuso in tutta Italia. Certifica le scuole che riducono l'impatto ambientale in almeno 4 aree tematiche.",
+    content:
+      "Le Green Schools promuovono comportamenti sostenibili attraverso progetti concreti su energia, rifiuti, acqua e mobilità.",
     icon: GraduationCap,
     bgClass: "bg-gradient-to-br from-teal-600 to-emerald-500",
     category: "scuole",
     details: [
-      "450+ scuole certificate in Lombardia",
-      "4 pilastri: energia, rifiuti, acqua, mobilita",
-      "Risparmio medio: 25% energia"
+      "450+ scuole coinvolte in Lombardia",
+      "Riduzione dei consumi energetici",
+      "Educazione ambientale attiva"
     ]
   },
+
   {
     id: 13,
-    title: "Benefici delle Green Schools",
-    content: "Oltre all'ambiente: migliori risultati scolastici, maggiore senso di comunita, sviluppo di competenze trasversali per il futuro.",
+    title: "I Benefici delle Green Schools",
+    content:
+      "Una scuola sostenibile migliora l’ambiente, rafforza il senso di comunità e sviluppa competenze utili per il futuro.",
     icon: Heart,
     bgClass: "bg-gradient-to-br from-pink-600 to-rose-500",
     category: "scuole",
     details: [
-      "Miglioramento performance accademiche",
-      "Riduzione assenteismo",
-      "Competenze green per il lavoro"
+      "Migliori risultati scolastici",
+      "Più partecipazione degli studenti",
+      "Competenze green per il mondo del lavoro"
     ]
   },
+
   {
     id: 14,
-    title: "Educazione alla Sostenibilita",
-    content: "Le scuole formano i cittadini di domani. L'educazione ambientale e oggi inserita nei curricula scolastici come materia trasversale.",
+    title: "Educazione alla Sostenibilità",
+    content:
+      "Educare alla sostenibilità significa formare cittadini più consapevoli, responsabili e pronti ad affrontare le sfide future.",
     icon: Users,
     bgClass: "bg-gradient-to-br from-orange-500 to-amber-500",
     category: "scuole",
     details: [
-      "Educazione civica ambientale obbligatoria",
-      "33 ore/anno dedicate alla sostenibilita",
-      "Progetti PCTO green in crescita"
+      "Educazione civica ambientale",
+      "Progetti e attività interdisciplinari",
+      "Cittadinanza attiva e responsabile"
     ]
   },
 
-  // SEZIONE 5: Conclusione
   {
     id: 15,
     title: "Insieme per il Futuro",
-    content: "Il cambiamento parte da ogni singola scuola, da ogni studente. Insieme possiamo fare la differenza per il nostro pianeta.",
+    content:
+      "La sostenibilità non riguarda solo il domani: è una responsabilità del presente. Ogni scuola può diventare un motore di cambiamento.",
     icon: Leaf,
     bgClass: "bg-gradient-to-br from-emerald-600 to-[#064e3b]",
     category: "conclusione",
     details: [
       "Ogni azione conta",
-      "Le scuole come esempio",
-      "Un futuro sostenibile e possibile"
+      "Le scuole come esempio positivo",
+      "Un futuro sostenibile è possibile"
     ]
   },
 ]
+
 
 const categories = [
   { id: "all", label: "Tutte", icon: Globe },
