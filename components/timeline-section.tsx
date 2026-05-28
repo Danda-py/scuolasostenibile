@@ -4,40 +4,49 @@ import { Card, CardContent } from "@/components/ui/card"
 const timelineSteps = [
   {
     month: "Settembre 2026",
-    title: "Lancio del Progetto",
-    description: "Presentazione ufficiale del progetto alla comunita scolastica. Formazione del gruppo di lavoro studentesco e prima fase di sensibilizzazione.",
+    title: "Avvio del Progetto",
+    description:
+      "Presentazione ufficiale del progetto alla comunità scolastica, creazione del gruppo di lavoro studentesco e avvio delle prime attività di sensibilizzazione ambientale.",
     icon: Rocket,
     color: "bg-[var(--forest)]",
     status: "upcoming",
   },
+
   {
     month: "Novembre 2026",
-    title: "Energy Audit",
-    description: "Analisi completa dei consumi energetici della scuola. Mappatura delle criticita e identificazione delle aree di intervento prioritario.",
+    title: "Analisi dei Consumi Energetici",
+    description:
+      "Monitoraggio dei consumi della scuola e individuazione delle principali criticità energetiche per definire gli interventi prioritari.",
     icon: Zap,
     color: "bg-amber-500",
     status: "upcoming",
   },
+
   {
     month: "Gennaio 2027",
-    title: "Installazione Cestini & Aeratori",
-    description: "Posizionamento delle isole ecologiche in ogni piano. Installazione aeratori sui rubinetti e riparazione perdite.",
+    title: "Miglioramento della Raccolta Differenziata",
+    description:
+      "Installazione di isole ecologiche e interventi per la riduzione degli sprechi idrici attraverso aeratori e manutenzione degli impianti.",
     icon: Trash2,
     color: "bg-blue-500",
     status: "upcoming",
   },
+
   {
     month: "Marzo 2027",
-    title: "Progetto Cortile Verde",
-    description: "Collaborazione con studenti CAT per la progettazione e realizzazione delle aree verdi nel cortile scolastico.",
+    title: "Riqualificazione degli Spazi Verdi",
+    description:
+      "Progettazione e realizzazione di nuove aree verdi scolastiche in collaborazione con gli studenti dell’indirizzo CAT.",
     icon: Trees,
     color: "bg-green-500",
     status: "upcoming",
   },
+
   {
     month: "Maggio 2027",
-    title: "Certificazione Green School",
-    description: "Presentazione del progetto completo e richiesta ufficiale di certificazione Green School per l'anno scolastico.",
+    title: "Richiesta Certificazione Green School",
+    description:
+      "Presentazione dei risultati raggiunti e candidatura ufficiale della scuola al programma Green School.",
     icon: Award,
     color: "bg-emerald-500",
     status: "upcoming",
