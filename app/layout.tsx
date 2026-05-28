@@ -18,23 +18,6 @@ export const metadata: Metadata = {
   title: 'Eco Saraceno-Romegialli | Verso una Scuola Sostenibile',
   description: "L'iniziativa degli studenti di Morbegno per trasformare l'Istituto Saraceno-Romegialli in una Green School certificata.",
   keywords: ['green school', 'sostenibilità', 'Morbegno', 'Saraceno-Romegialli', 'ambiente', 'scuola sostenibile'],
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
-  },
 }
 
 export default function RootLayout({
