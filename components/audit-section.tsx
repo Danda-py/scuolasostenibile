@@ -65,7 +65,7 @@ const issues = [
       "Molti studenti raggiungono la scuola in auto privata, aumentando traffico, emissioni e congestione nelle ore di punta.",
     details: [
       "Elevato utilizzo dell’auto privata",
-      "Poche rastrelliere per biciclette",
+      "Rastrelliere per biciclette poco usate",
       "Mobilità sostenibile poco incentivata",
     ],
     wastePercent: 65,
