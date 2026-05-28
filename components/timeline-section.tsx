@@ -76,7 +76,7 @@ export function TimelineSection() {
           <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-amber-50 border border-amber-200">
             <Clock className="w-5 h-5 text-amber-600" />
             <span className="text-sm font-medium text-amber-800">
-              Il progetto partira a Settembre 2026 con l&apos;inizio del nuovo anno scolastico
+              Il progetto partirà a Settembre 2026 con l&apos;inizio del nuovo anno scolastico
             </span>
           </div>
         </div>
