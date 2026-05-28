@@ -101,22 +101,38 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="py-6 border-t border-white/10">
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-sm text-white/60">
-              © 2024 Istituto Saraceno-Romegialli, Morbegno. Progetto Studenti per la Sostenibilità.
-            </p>
-            <div className="flex items-center gap-4">
-              <a href="#" className="text-sm text-white/60 hover:text-white transition-colors">
-                Privacy
-              </a>
-              <a href="#" className="text-sm text-white/60 hover:text-white transition-colors">
-                Cookie Policy
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+<div className="py-6 border-t border-white/10">
+  <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+    <p className="text-sm text-white/60">
+      © 2024 Istituto Saraceno-Romegialli, Morbegno. Progetto Studenti per la Sostenibilità.
+    </p>
+
+    <div className="flex items-center gap-4">
+      <a
+        href="#"
+        className="text-sm text-white/60 hover:text-white transition-colors"
+      >
+        Privacy
+      </a>
+
+      <a
+        href="#"
+        className="text-sm text-white/60 hover:text-white transition-colors"
+      >
+        Cookie Policy
+      </a>
+
+      <a
+        href="https://github.com/Danda-py/scuolasostenibile"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-sm text-white/60 hover:text-white transition-colors"
+      >
+        GitHub Repository
+      </a>
+    </div>
+  </div>
+</div>
     </footer>
   )
 }
